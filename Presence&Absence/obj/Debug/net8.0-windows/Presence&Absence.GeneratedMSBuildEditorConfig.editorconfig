@@ -14,6 +14,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Presence_Absence
-build_property.ProjectDir = D:\Ex\Presence&Absence\Presence&Absence\
+build_property.ProjectDir = D:\Ex\Ex1\Presence&Absence\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
