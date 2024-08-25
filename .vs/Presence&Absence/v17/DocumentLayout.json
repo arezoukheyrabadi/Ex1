@@ -1,22 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Ex\\Presence\u0026Absence\\",
+  "WorkspaceRootPath": "D:\\Ex\\Ex1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B107B77F-3626-4EC3-8E79-8A826E9EC42D}|Presence\u0026Absence\\Presence\u0026Absence.csproj|D:\\Ex\\Presence\u0026Absence\\presence\u0026absence\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B107B77F-3626-4EC3-8E79-8A826E9EC42D}|Presence\u0026Absence\\Presence\u0026Absence.csproj|solutionrelative:presence\u0026absence\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B107B77F-3626-4EC3-8E79-8A826E9EC42D}|Presence\u0026Absence\\Presence\u0026Absence.csproj|d:\\ex\\presence\u0026absence\\presence\u0026absence\\service\\precenceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B107B77F-3626-4EC3-8E79-8A826E9EC42D}|Presence\u0026Absence\\Presence\u0026Absence.csproj|solutionrelative:presence\u0026absence\\service\\precenceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B107B77F-3626-4EC3-8E79-8A826E9EC42D}|Presence\u0026Absence\\Presence\u0026Absence.csproj|d:\\ex\\presence\u0026absence\\presence\u0026absence\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B107B77F-3626-4EC3-8E79-8A826E9EC42D}|Presence\u0026Absence\\Presence\u0026Absence.csproj|d:\\ex\\ex1\\presence\u0026absence\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B107B77F-3626-4EC3-8E79-8A826E9EC42D}|Presence\u0026Absence\\Presence\u0026Absence.csproj|solutionrelative:presence\u0026absence\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B107B77F-3626-4EC3-8E79-8A826E9EC42D}|Presence\u0026Absence\\Presence\u0026Absence.csproj|d:\\ex\\presence\u0026absence\\presence\u0026absence\\models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B107B77F-3626-4EC3-8E79-8A826E9EC42D}|Presence\u0026Absence\\Presence\u0026Absence.csproj|D:\\Ex\\Ex1\\presence\u0026absence\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B107B77F-3626-4EC3-8E79-8A826E9EC42D}|Presence\u0026Absence\\Presence\u0026Absence.csproj|solutionrelative:presence\u0026absence\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B107B77F-3626-4EC3-8E79-8A826E9EC42D}|Presence\u0026Absence\\Presence\u0026Absence.csproj|d:\\ex\\ex1\\presence\u0026absence\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B107B77F-3626-4EC3-8E79-8A826E9EC42D}|Presence\u0026Absence\\Presence\u0026Absence.csproj|solutionrelative:presence\u0026absence\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B107B77F-3626-4EC3-8E79-8A826E9EC42D}|Presence\u0026Absence\\Presence\u0026Absence.csproj|d:\\ex\\ex1\\presence\u0026absence\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B107B77F-3626-4EC3-8E79-8A826E9EC42D}|Presence\u0026Absence\\Presence\u0026Absence.csproj|solutionrelative:presence\u0026absence\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B107B77F-3626-4EC3-8E79-8A826E9EC42D}|Presence\u0026Absence\\Presence\u0026Absence.csproj|d:\\ex\\ex1\\presence\u0026absence\\models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B107B77F-3626-4EC3-8E79-8A826E9EC42D}|Presence\u0026Absence\\Presence\u0026Absence.csproj|solutionrelative:presence\u0026absence\\models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B107B77F-3626-4EC3-8E79-8A826E9EC42D}|Presence\u0026Absence\\Presence\u0026Absence.csproj|d:\\ex\\ex1\\presence\u0026absence\\service\\precenceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B107B77F-3626-4EC3-8E79-8A826E9EC42D}|Presence\u0026Absence\\Presence\u0026Absence.csproj|solutionrelative:presence\u0026absence\\service\\precenceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,59 +34,83 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Person.cs",
-              "DocumentMoniker": "D:\\Ex\\Presence\u0026Absence\\Presence\u0026Absence\\Models\\Person.cs",
+              "DocumentMoniker": "D:\\Ex\\Ex1\\Presence\u0026Absence\\Models\\Person.cs",
               "RelativeDocumentMoniker": "Presence\u0026Absence\\Models\\Person.cs",
-              "ToolTip": "D:\\Ex\\Presence\u0026Absence\\Presence\u0026Absence\\Models\\Person.cs",
+              "ToolTip": "D:\\Ex\\Ex1\\Presence\u0026Absence\\Models\\Person.cs",
               "RelativeToolTip": "Presence\u0026Absence\\Models\\Person.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAAABEAAAAAAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAwAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-24T10:58:34.362Z",
-              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form2.cs [Design]",
+              "DocumentMoniker": "D:\\Ex\\Ex1\\Presence\u0026Absence\\Form2.cs",
+              "RelativeDocumentMoniker": "Presence\u0026Absence\\Form2.cs",
+              "ToolTip": "D:\\Ex\\Ex1\\Presence\u0026Absence\\Form2.cs [Design]",
+              "RelativeToolTip": "Presence\u0026Absence\\Form2.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T16:28:45.959Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "D:\\Ex\\Presence\u0026Absence\\Presence\u0026Absence\\Form1.cs",
+              "Title": "Form2.cs",
+              "DocumentMoniker": "D:\\Ex\\Ex1\\Presence\u0026Absence\\Form2.cs",
+              "RelativeDocumentMoniker": "Presence\u0026Absence\\Form2.cs",
+              "ToolTip": "D:\\Ex\\Ex1\\Presence\u0026Absence\\Form2.cs",
+              "RelativeToolTip": "Presence\u0026Absence\\Form2.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAAACsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T16:33:49.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "D:\\Ex\\Ex1\\Presence\u0026Absence\\Form1.cs",
               "RelativeDocumentMoniker": "Presence\u0026Absence\\Form1.cs",
-              "ToolTip": "D:\\Ex\\Presence\u0026Absence\\Presence\u0026Absence\\Form1.cs",
+              "ToolTip": "D:\\Ex\\Ex1\\Presence\u0026Absence\\Form1.cs [Design]",
+              "RelativeToolTip": "Presence\u0026Absence\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T06:30:44.617Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\Ex\\Ex1\\Presence\u0026Absence\\Form1.cs",
+              "RelativeDocumentMoniker": "Presence\u0026Absence\\Form1.cs",
+              "ToolTip": "D:\\Ex\\Ex1\\Presence\u0026Absence\\Form1.cs",
               "RelativeToolTip": "Presence\u0026Absence\\Form1.cs",
-              "ViewState": "AQIAABwAAAAAAAAAAAAAACYAAAC5AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-24T06:58:03.528Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "PrecenceService.cs",
-              "DocumentMoniker": "D:\\Ex\\Presence\u0026Absence\\Presence\u0026Absence\\Service\\PrecenceService.cs",
+              "DocumentMoniker": "D:\\Ex\\Ex1\\Presence\u0026Absence\\Service\\PrecenceService.cs",
               "RelativeDocumentMoniker": "Presence\u0026Absence\\Service\\PrecenceService.cs",
-              "ToolTip": "D:\\Ex\\Presence\u0026Absence\\Presence\u0026Absence\\Service\\PrecenceService.cs",
+              "ToolTip": "D:\\Ex\\Ex1\\Presence\u0026Absence\\Service\\PrecenceService.cs",
               "RelativeToolTip": "Presence\u0026Absence\\Service\\PrecenceService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
+              "ViewState": "AQIAABkAAAAAAAAAAAAAACMAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-24T10:28:49.787Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "D:\\Ex\\Presence\u0026Absence\\Presence\u0026Absence\\Form1.cs",
-              "RelativeDocumentMoniker": "Presence\u0026Absence\\Form1.cs",
-              "ToolTip": "D:\\Ex\\Presence\u0026Absence\\Presence\u0026Absence\\Form1.cs [Design]",
-              "RelativeToolTip": "Presence\u0026Absence\\Form1.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-24T06:30:44.617Z",
-              "EditorCaption": " [Design]"
             }
           ]
         }
