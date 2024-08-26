@@ -48,6 +48,8 @@ namespace Presence_Absence
 
                 comboBox1.Items.Add(item.Id);
             }
+
+
         }
 
         private void numericUpDown1_ValueChanged(object sender, EventArgs e)
@@ -60,6 +62,10 @@ namespace Presence_Absence
             precenceService.EditList(comboBox1.SelectedIndex, dateTimePicker3.Value, dateTimePicker4.Value, Convert.ToBoolean(checkBox2.Checked));
             dataGridView1.DataSource = null;
             dataGridView1.DataSource = precenceService.GetList();
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
         }
     }
 }

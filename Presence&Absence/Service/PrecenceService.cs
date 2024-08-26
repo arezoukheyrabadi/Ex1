@@ -71,10 +71,19 @@ namespace Presence_Absence.Service
             {
                 if (PersonList[i].Id == Id)
                 {
-                    PersonList[i].Arrival = newArrival;
-                    PersonList[i].Departure = newDeparture;
-                    PersonList[i].Absence = newAbsence;
-
+                    if(newAbsence == true)
+                    {
+                        PersonList[i].Arrival = Convert.ToDateTime(null);
+                        PersonList[i].Departure = Convert.ToDateTime(null);
+                        PersonList[i].Absence = newAbsence;
+                    }
+                    else
+                    {
+                        PersonList[i].Arrival = newArrival;
+                        PersonList[i].Departure = newDeparture;
+                        PersonList[i].Absence = newAbsence;
+                    }
+                 
                 }
              
             }
