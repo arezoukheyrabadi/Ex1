@@ -65,6 +65,21 @@ namespace Presence_Absence.Service
             return PersonList;
         }
 
+        public void EditList(int Id,DateTime newArrival, DateTime newDeparture, bool newAbsence)
+        {
+            for (int i = 0; i < PersonList.Count; i++)
+            {
+                if (PersonList[i].Id == Id)
+                {
+                    PersonList[i].Arrival = newArrival;
+                    PersonList[i].Departure = newDeparture;
+                    PersonList[i].Absence = newAbsence;
+
+                }
+             
+            }
+        }
+
 
     }
 }

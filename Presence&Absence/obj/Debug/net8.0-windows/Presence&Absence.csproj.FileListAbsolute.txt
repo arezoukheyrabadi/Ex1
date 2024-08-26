@@ -15,7 +15,6 @@ D:\Ex\Presence&Absence\Presence&Absence\obj\Debug\net8.0-windows\Presence&Absenc
 D:\Ex\Presence&Absence\Presence&Absence\obj\Debug\net8.0-windows\Presence&Absence.genruntimeconfig.cache
 D:\Ex\Presence&Absence\Presence&Absence\obj\Debug\net8.0-windows\ref\Presence&Absence.dll
 D:\Ex\Ex1\Presence&Absence\obj\Debug\net8.0-windows\Presence_Absence.addPerson.resources
-D:\Ex\Ex1\Presence&Absence\obj\Debug\net8.0-windows\Presence_Absence.Form2.resources
 D:\Ex\Ex1\Presence&Absence\obj\Debug\net8.0-windows\Presence&Absence.csproj.GenerateResource.cache
 D:\Ex\Ex1\Presence&Absence\obj\Debug\net8.0-windows\Presence&Absence.GeneratedMSBuildEditorConfig.editorconfig
 D:\Ex\Ex1\Presence&Absence\obj\Debug\net8.0-windows\Presence&Absence.AssemblyInfoInputs.cache

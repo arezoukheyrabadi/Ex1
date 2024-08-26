@@ -42,6 +42,11 @@
             label6 = new Label();
             dataGridView1 = new DataGridView();
             checkBox1 = new CheckBox();
+            button2 = new Button();
+            comboBox1 = new ComboBox();
+            dateTimePicker3 = new DateTimePicker();
+            dateTimePicker4 = new DateTimePicker();
+            checkBox2 = new CheckBox();
             ((System.ComponentModel.ISupportInitialize)numericUpDown1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
@@ -66,6 +71,7 @@
             numericUpDown1.Name = "numericUpDown1";
             numericUpDown1.Size = new Size(178, 23);
             numericUpDown1.TabIndex = 2;
+            numericUpDown1.ValueChanged += numericUpDown1_ValueChanged;
             // 
             // dateTimePicker1
             // 
@@ -123,7 +129,7 @@
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new Point(15, 177);
+            label5.Location = new Point(15, 171);
             label5.Name = "label5";
             label5.Size = new Size(61, 15);
             label5.TabIndex = 12;
@@ -156,18 +162,65 @@
             // checkBox1
             // 
             checkBox1.AutoSize = true;
-            checkBox1.Location = new Point(82, 177);
+            checkBox1.Location = new Point(82, 170);
             checkBox1.Name = "checkBox1";
             checkBox1.Size = new Size(41, 19);
             checkBox1.TabIndex = 16;
             checkBox1.Text = "AB";
             checkBox1.UseVisualStyleBackColor = true;
             // 
+            // button2
+            // 
+            button2.Location = new Point(185, 388);
+            button2.Name = "button2";
+            button2.Size = new Size(75, 23);
+            button2.TabIndex = 17;
+            button2.Text = "Edit";
+            button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
+            // 
+            // comboBox1
+            // 
+            comboBox1.FormattingEnabled = true;
+            comboBox1.Location = new Point(82, 286);
+            comboBox1.Name = "comboBox1";
+            comboBox1.Size = new Size(178, 23);
+            comboBox1.TabIndex = 18;
+            // 
+            // dateTimePicker3
+            // 
+            dateTimePicker3.Location = new Point(82, 315);
+            dateTimePicker3.Name = "dateTimePicker3";
+            dateTimePicker3.Size = new Size(178, 23);
+            dateTimePicker3.TabIndex = 19;
+            // 
+            // dateTimePicker4
+            // 
+            dateTimePicker4.Location = new Point(82, 344);
+            dateTimePicker4.Name = "dateTimePicker4";
+            dateTimePicker4.Size = new Size(178, 23);
+            dateTimePicker4.TabIndex = 20;
+            // 
+            // checkBox2
+            // 
+            checkBox2.AutoSize = true;
+            checkBox2.Location = new Point(82, 373);
+            checkBox2.Name = "checkBox2";
+            checkBox2.Size = new Size(41, 19);
+            checkBox2.TabIndex = 21;
+            checkBox2.Text = "AB";
+            checkBox2.UseVisualStyleBackColor = true;
+            // 
             // addPerson
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(694, 321);
+            ClientSize = new Size(694, 492);
+            Controls.Add(checkBox2);
+            Controls.Add(dateTimePicker4);
+            Controls.Add(dateTimePicker3);
+            Controls.Add(comboBox1);
+            Controls.Add(button2);
             Controls.Add(checkBox1);
             Controls.Add(dataGridView1);
             Controls.Add(label6);
@@ -206,5 +259,10 @@
         private Label label6;
         private DataGridView dataGridView1;
         private CheckBox checkBox1;
+        private Button button2;
+        private ComboBox comboBox1;
+        private DateTimePicker dateTimePicker3;
+        private DateTimePicker dateTimePicker4;
+        private CheckBox checkBox2;
     }
 }
