@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Presence_Absence.Service
 {
@@ -12,28 +13,50 @@ namespace Presence_Absence.Service
         public static List<Person> PersonList = new List<Person>();
 
         // Save List
-        public void SaveList(int Id, string Name, string LastName,DateTime Date,DateTime dateTime,bool Absence)
+        public void SaveList(int Id, string Name, string LastName,DateTime Arrival, DateTime Departure, bool Absence)
         {
             Person person = new Person();
-
-            for (int i = 0; i < PersonList.Count; i++)
+            if (Absence == false)
             {
-                if (Id == PersonList[i].Id)
+                for (int i = 0; i < PersonList.Count; i++)
                 {
-                    MessageBox.Show("The product with this ID is available.");
-                    return;
+                    if (Id == PersonList[i].Id)
+                    {
+                        MessageBox.Show("The product with this ID is available.");
+                        return;
+                    }
                 }
+
+                person.Id = Id;
+                person.Name = Name;
+                person.LastName = LastName;
+                person.Arrival = Arrival;
+                person.Departure = Departure;
+                person.Absence = Absence;
+
+                PersonList.Add(person);
+                MessageBox.Show("Saved");
+            }else
+            {
+                for (int i = 0; i < PersonList.Count; i++)
+                {
+                    if (Id == PersonList[i].Id)
+                    {
+                        MessageBox.Show("The product with this ID is available.");
+                        return;
+                    }
+                }
+
+                person.Id = Id;
+                person.Name = Name;
+                person.LastName = LastName;
+                person.Absence = Absence;
+
+                PersonList.Add(person);
+                MessageBox.Show("Saved");
             }
 
-            person.Id = Id; 
-            person.Name = Name;
-            person.LastName = LastName;
-            person.Date = Date;
-            person.DateTime = dateTime;
-            person.Absence = Absence;
-
-            PersonList.Add(person);
-            MessageBox.Show("Saved");
+            
         }
 
         // Show List

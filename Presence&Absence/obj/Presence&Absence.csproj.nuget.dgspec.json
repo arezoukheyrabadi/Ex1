@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Ex\\Presence&Absence\\Presence&Absence\\Presence&Absence.csproj": {}
+    "D:\\Ex\\Ex1\\Presence&Absence\\Presence&Absence.csproj": {}
   },
   "projects": {
-    "D:\\Ex\\Presence&Absence\\Presence&Absence\\Presence&Absence.csproj": {
+    "D:\\Ex\\Ex1\\Presence&Absence\\Presence&Absence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Ex\\Presence&Absence\\Presence&Absence\\Presence&Absence.csproj",
+        "projectUniqueName": "D:\\Ex\\Ex1\\Presence&Absence\\Presence&Absence.csproj",
         "projectName": "Presence&Absence",
-        "projectPath": "D:\\Ex\\Presence&Absence\\Presence&Absence\\Presence&Absence.csproj",
+        "projectPath": "D:\\Ex\\Ex1\\Presence&Absence\\Presence&Absence.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "D:\\Ex\\Presence&Absence\\Presence&Absence\\obj\\",
+        "outputPath": "D:\\Ex\\Ex1\\Presence&Absence\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",

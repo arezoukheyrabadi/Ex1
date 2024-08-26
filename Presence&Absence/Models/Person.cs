@@ -11,8 +11,8 @@ namespace Presence_Absence.Models
         public int Id { get; set; }
         public string Name { get; set; }
         public string LastName { get; set; }
-        public DateTime Date { get; set; }
-        public DateTime DateTime { get; set; }
+        public DateTime Arrival { get; set; }
+        public DateTime Departure { get; set; }
         public bool Absence { get; set; }
 
 

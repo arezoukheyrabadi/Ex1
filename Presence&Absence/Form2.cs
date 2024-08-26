@@ -39,7 +39,7 @@ namespace Presence_Absence
 
         private void button1_Click(object sender, EventArgs e)
         {
-            precenceService.EditList(comboBox1.SelectedIndex, dateTimePicker1.Value, dateTimePicker2.Value, checkBox1.Checked);
+       
         }
     }
 }
