@@ -1,5 +1,7 @@
+using Presence_Absence.Models;
 using Presence_Absence.Service;
 using System.Windows.Forms;
+using static System.Windows.Forms.DataFormats;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace Presence_Absence
@@ -10,9 +12,14 @@ namespace Presence_Absence
 
     {
         PrecenceService precenceService = new PrecenceService();
+
+        public static addPerson Instance;
+        public DataGridView my_DataGridView1;
         public addPerson()
         {
             InitializeComponent();
+            Instance = this;
+            my_DataGridView1 = dataGridView1;
         }
 
         private void timer1_Tick(object sender, EventArgs e)
@@ -37,17 +44,12 @@ namespace Presence_Absence
 
         private void Save(object sender, EventArgs e)
         {
+
             precenceService.SaveList(Convert.ToInt32(numericUpDown1.Value), textBox1.Text, textBox2.Text, dateTimePicker1.Value, dateTimePicker2.Value, Convert.ToBoolean(checkBox1.Checked));
             dataGridView1.DataSource = null;
             dataGridView1.DataSource = precenceService.GetList();
 
-            var tempList1 = precenceService.GetList();
 
-            foreach (var item in tempList1)
-            {
-
-                comboBox1.Items.Add(item.Id);
-            }
 
 
         }
@@ -59,13 +61,20 @@ namespace Presence_Absence
 
         private void button2_Click(object sender, EventArgs e)
         {
-            precenceService.EditList(comboBox1.SelectedIndex, dateTimePicker3.Value, dateTimePicker4.Value, Convert.ToBoolean(checkBox2.Checked));
-            dataGridView1.DataSource = null;
-            dataGridView1.DataSource = precenceService.GetList();
+            
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+
+            Form2 EditForm = new Form2();
+            EditForm.ShowDialog();
+            
         }
     }
 }

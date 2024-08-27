@@ -42,11 +42,7 @@
             label6 = new Label();
             dataGridView1 = new DataGridView();
             checkBox1 = new CheckBox();
-            button2 = new Button();
-            comboBox1 = new ComboBox();
-            dateTimePicker3 = new DateTimePicker();
-            dateTimePicker4 = new DateTimePicker();
-            checkBox2 = new CheckBox();
+            button3 = new Button();
             ((System.ComponentModel.ISupportInitialize)numericUpDown1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
@@ -169,59 +165,22 @@
             checkBox1.Text = "AB";
             checkBox1.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // button3
             // 
-            button2.Location = new Point(185, 388);
-            button2.Name = "button2";
-            button2.Size = new Size(75, 23);
-            button2.TabIndex = 17;
-            button2.Text = "Edit";
-            button2.UseVisualStyleBackColor = true;
-            button2.Click += button2_Click;
-            // 
-            // comboBox1
-            // 
-            comboBox1.FormattingEnabled = true;
-            comboBox1.Location = new Point(82, 286);
-            comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(178, 23);
-            comboBox1.TabIndex = 18;
-            comboBox1.SelectedIndexChanged += comboBox1_SelectedIndexChanged;
-            // 
-            // dateTimePicker3
-            // 
-            dateTimePicker3.Location = new Point(82, 315);
-            dateTimePicker3.Name = "dateTimePicker3";
-            dateTimePicker3.Size = new Size(178, 23);
-            dateTimePicker3.TabIndex = 19;
-            // 
-            // dateTimePicker4
-            // 
-            dateTimePicker4.Location = new Point(82, 344);
-            dateTimePicker4.Name = "dateTimePicker4";
-            dateTimePicker4.Size = new Size(178, 23);
-            dateTimePicker4.TabIndex = 20;
-            // 
-            // checkBox2
-            // 
-            checkBox2.AutoSize = true;
-            checkBox2.Location = new Point(82, 373);
-            checkBox2.Name = "checkBox2";
-            checkBox2.Size = new Size(41, 19);
-            checkBox2.TabIndex = 21;
-            checkBox2.Text = "AB";
-            checkBox2.UseVisualStyleBackColor = true;
+            button3.Location = new Point(179, 230);
+            button3.Name = "button3";
+            button3.Size = new Size(75, 23);
+            button3.TabIndex = 22;
+            button3.Text = "Edit";
+            button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
             // 
             // addPerson
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(694, 492);
-            Controls.Add(checkBox2);
-            Controls.Add(dateTimePicker4);
-            Controls.Add(dateTimePicker3);
-            Controls.Add(comboBox1);
-            Controls.Add(button2);
+            Controls.Add(button3);
             Controls.Add(checkBox1);
             Controls.Add(dataGridView1);
             Controls.Add(label6);
@@ -260,10 +219,6 @@
         private Label label6;
         private DataGridView dataGridView1;
         private CheckBox checkBox1;
-        private Button button2;
-        private ComboBox comboBox1;
-        private DateTimePicker dateTimePicker3;
-        private DateTimePicker dateTimePicker4;
-        private CheckBox checkBox2;
+        private Button button3;
     }
 }

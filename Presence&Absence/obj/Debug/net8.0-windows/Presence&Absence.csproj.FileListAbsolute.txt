@@ -31,3 +31,4 @@ D:\Ex\Ex1\Presence&Absence\bin\Debug\net8.0-windows\Presence&Absence.dll
 D:\Ex\Ex1\Presence&Absence\bin\Debug\net8.0-windows\Presence&Absence.pdb
 D:\Ex\Ex1\Presence&Absence\obj\Debug\net8.0-windows\Presence&Absence.genruntimeconfig.cache
 D:\Ex\Ex1\Presence&Absence\obj\Debug\net8.0-windows\ref\Presence&Absence.dll
+D:\Ex\Ex1\Presence&Absence\obj\Debug\net8.0-windows\Presence_Absence.Form2.resources
