@@ -8,19 +8,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace Presence_Absence
 {
-    public partial class Form2 : Form
+    public partial class Form3 : Form
     {
         PrecenceService precenceService = new PrecenceService();
-        public Form2()
+        public Form3()
         {
             InitializeComponent();
         }
 
-        private void Form2_Load(object sender, EventArgs e)
+        private void Form3_Load(object sender, EventArgs e)
         {
             var tempList1 = precenceService.GetList();
 
@@ -32,12 +31,17 @@ namespace Presence_Absence
 
         private void button2_Click(object sender, EventArgs e)
         {
-            precenceService.EditList(Convert.ToInt32(comboBox1.SelectedItem), dateTimePicker3.Value, dateTimePicker4.Value, Convert.ToBoolean(checkBox2.Checked));
+            precenceService.DeleteList(Convert.ToInt32(comboBox1.SelectedItem));
             addPerson.Instance.my_DataGridView1.DataSource = null;
             addPerson.Instance.my_DataGridView1.DataSource = precenceService.GetList();
         }
 
         private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
         {
 
         }

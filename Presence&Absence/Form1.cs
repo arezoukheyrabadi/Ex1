@@ -61,7 +61,7 @@ namespace Presence_Absence
 
         private void button2_Click(object sender, EventArgs e)
         {
-            
+
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
@@ -74,7 +74,13 @@ namespace Presence_Absence
 
             Form2 EditForm = new Form2();
             EditForm.ShowDialog();
-            
+
+        }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            Form3 DeleteForm = new Form3();
+            DeleteForm.ShowDialog();
         }
     }
 }

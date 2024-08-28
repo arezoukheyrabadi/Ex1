@@ -89,6 +89,18 @@ namespace Presence_Absence.Service
             }
         }
 
+        public void DeleteList(int Id)
+        {
+            for (int i = 0; i < PersonList.Count; i++)
+            {
+                if (PersonList[i].Id == Id)
+                {
+                    PersonList.Remove((PersonList[i]));
+                }
+
+            }
+        }
+
 
     }
 }

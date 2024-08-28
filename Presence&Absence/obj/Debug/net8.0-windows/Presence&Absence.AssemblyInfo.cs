@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Presence&Absence")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+69aed0bba439443e1448b5492e31f0755d8864cf")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+23360d1c00aa0e1651a0bf9e1f7c4303b6c4014c")]
 [assembly: System.Reflection.AssemblyProductAttribute("Presence&Absence")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Presence&Absence")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
