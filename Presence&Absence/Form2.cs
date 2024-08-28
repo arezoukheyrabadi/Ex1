@@ -32,7 +32,7 @@ namespace Presence_Absence
 
         private void button2_Click(object sender, EventArgs e)
         {
-            precenceService.EditList(comboBox1.SelectedIndex, dateTimePicker3.Value, dateTimePicker4.Value, Convert.ToBoolean(checkBox2.Checked));
+            precenceService.EditList(Convert.ToInt32( comboBox1.SelectedItem), dateTimePicker3.Value, dateTimePicker4.Value, Convert.ToBoolean(checkBox2.Checked));
             addPerson.Instance.my_DataGridView1.DataSource = null;
             addPerson.Instance.my_DataGridView1.DataSource = precenceService.GetList();
         }
