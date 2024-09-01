@@ -11,9 +11,10 @@ namespace Presence_Absence.Service
     internal class PrecenceService
     {
         public static List<Person> PersonList = new List<Person>();
+        public static List<Person> PersonListSelect = new List<Person>();
 
         // Save List
-        public void SaveList(int Id, string Name, string LastName,DateTime Arrival, DateTime Departure, bool Absence)
+        public void SaveList(int Id, string Name, string LastName, DateTime Arrival, DateTime Departure, bool Absence)
         {
             Person person = new Person();
             if (Absence == false)
@@ -36,7 +37,8 @@ namespace Presence_Absence.Service
 
                 PersonList.Add(person);
                 MessageBox.Show("Saved");
-            }else
+            }
+            else
             {
                 for (int i = 0; i < PersonList.Count; i++)
                 {
@@ -56,22 +58,36 @@ namespace Presence_Absence.Service
                 MessageBox.Show("Saved");
             }
 
+
+        }
+        public void saveList(Person p)
+        {
+            PersonList.Add(p);
+        }
+        public void selectList(Person p)
+        {
+            PersonListSelect.Clear();
+            PersonListSelect.Add(p);
             
         }
-    
+
         // Show List
         public List<Person> GetList()
         {
             return PersonList;
         }
+        public List<Person> getList()
+        {
+            return PersonListSelect;
+        }
 
-        public void EditList(int Id,DateTime newArrival, DateTime newDeparture, bool newAbsence)
+        public void EditList(int Id, DateTime newArrival, DateTime newDeparture, bool newAbsence)
         {
             for (int i = 0; i < PersonList.Count; i++)
             {
                 if (PersonList[i].Id == Id)
                 {
-                    if(newAbsence == true)
+                    if (newAbsence == true)
                     {
                         PersonList[i].Arrival = Convert.ToDateTime(null);
                         PersonList[i].Departure = Convert.ToDateTime(null);
@@ -83,9 +99,9 @@ namespace Presence_Absence.Service
                         PersonList[i].Departure = newDeparture;
                         PersonList[i].Absence = newAbsence;
                     }
-                 
+
                 }
-             
+
             }
         }
 
@@ -99,6 +115,25 @@ namespace Presence_Absence.Service
                 }
 
             }
+        }
+
+        public Person Select(int Id)
+        {
+            //return PersonList.Where(x => x.Id == Id).FirstOrDefault();
+             
+            for (int i = 0; i < PersonList.Count; i++)
+            {
+                if (PersonList[i].Id == Id)
+                {
+                    return PersonList[i];
+
+                }
+
+            }
+
+            return null;
+
+
         }
 
 

@@ -40,10 +40,11 @@
             label5 = new Label();
             dateTimePicker2 = new DateTimePicker();
             label6 = new Label();
-            dataGridView1 = new DataGridView();
             checkBox1 = new CheckBox();
             button3 = new Button();
             button2 = new Button();
+            dataGridView1 = new DataGridView();
+            Column1 = new DataGridViewButtonColumn();
             ((System.ComponentModel.ISupportInitialize)numericUpDown1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
@@ -148,14 +149,6 @@
             label6.TabIndex = 14;
             label6.Text = "Date :";
             // 
-            // dataGridView1
-            // 
-            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(293, 28);
-            dataGridView1.Name = "dataGridView1";
-            dataGridView1.Size = new Size(389, 281);
-            dataGridView1.TabIndex = 15;
-            // 
             // checkBox1
             // 
             checkBox1.AutoSize = true;
@@ -168,7 +161,7 @@
             // 
             // button3
             // 
-            button3.Location = new Point(82, 218);
+            button3.Location = new Point(76, 218);
             button3.Name = "button3";
             button3.Size = new Size(75, 23);
             button3.TabIndex = 22;
@@ -185,6 +178,21 @@
             button2.Text = "Delete";
             button2.UseVisualStyleBackColor = true;
             button2.Click += button2_Click_1;
+            // 
+            // dataGridView1
+            // 
+            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView1.Columns.AddRange(new DataGridViewColumn[] { Column1 });
+            dataGridView1.Location = new Point(293, 28);
+            dataGridView1.Name = "dataGridView1";
+            dataGridView1.Size = new Size(389, 281);
+            dataGridView1.TabIndex = 15;
+            dataGridView1.CellContentClick += dataGridView1_CellContentClick;
+            // 
+            // Column1
+            // 
+            Column1.HeaderText = "Column1";
+            Column1.Name = "Column1";
             // 
             // addPerson
             // 
@@ -209,6 +217,7 @@
             Controls.Add(textBox1);
             Name = "addPerson";
             Text = "Add Person";
+            Load += addPerson_Load;
             ((System.ComponentModel.ISupportInitialize)numericUpDown1).EndInit();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
@@ -229,9 +238,10 @@
         private Label label5;
         private DateTimePicker dateTimePicker2;
         private Label label6;
-        private DataGridView dataGridView1;
         private CheckBox checkBox1;
         private Button button3;
         private Button button2;
+        private DataGridView dataGridView1;
+        private DataGridViewButtonColumn Column1;
     }
 }

@@ -20,6 +20,7 @@ namespace Presence_Absence
             InitializeComponent();
             Instance = this;
             my_DataGridView1 = dataGridView1;
+
         }
 
         private void timer1_Tick(object sender, EventArgs e)
@@ -81,6 +82,46 @@ namespace Presence_Absence
         {
             Form3 DeleteForm = new Form3();
             DeleteForm.ShowDialog();
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            var list = (List<Person>)dataGridView1.DataSource;
+            var item = list[e.RowIndex];
+
+            Form4 EditForm = new Form4();
+
+            var temp = precenceService.Select(item.Id);
+            precenceService.selectList(temp);
+
+            Form4.Instance.my_DataGridView2.DataSource = null;
+            Form4.Instance.my_DataGridView2.DataSource = precenceService.getList();
+            
+            
+            EditForm.ShowDialog();
+           
+
+        }
+
+        private void addPerson_Load(object sender, EventArgs e)
+        {
+            Person p1 = new Person();
+            p1.Id = 0;
+            p1.Name = "Arezou";
+            p1.LastName = "Kheyrabadi";
+            p1.Arrival = DateTime.Now;
+            p1.Departure = DateTime.Now;
+            p1.Absence = false;
+            precenceService.saveList(p1);
+
+            dataGridView1.DataSource = null;
+            dataGridView1.DataSource = precenceService.GetList();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Form4 SelectForm = new Form4();
+
         }
     }
 }
