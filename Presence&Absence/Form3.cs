@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.Window;
 
 namespace Presence_Absence
 {
@@ -32,9 +33,20 @@ namespace Presence_Absence
 
         private void button2_Click(object sender, EventArgs e)
         {
-            precenceService.DeleteList(Convert.ToInt32(comboBox1.SelectedItem));
-            addPerson.Instance.my_DataGridView1.DataSource = null;
-            addPerson.Instance.my_DataGridView1.DataSource = precenceService.GetList();
+
+            var result = MessageBox.Show("Are You Sure ? ", "",
+                                 MessageBoxButtons.YesNo,
+                                 MessageBoxIcon.Question);
+
+            // If the no button was pressed ...
+            if (result == DialogResult.Yes)
+            {
+                precenceService.DeleteList(Convert.ToInt32(comboBox1.SelectedItem));
+                addPerson.Instance.my_DataGridView1.DataSource = null;
+                addPerson.Instance.my_DataGridView1.DataSource = precenceService.GetList();
+               
+            }
+                
         }
 
         private void label6_Click(object sender, EventArgs e)

@@ -32,9 +32,19 @@ namespace Presence_Absence
 
         private void button2_Click(object sender, EventArgs e)
         {
-            precenceService.EditList(Convert.ToInt32(comboBox1.SelectedItem), dateTimePicker3.Value, dateTimePicker4.Value, Convert.ToBoolean(checkBox2.Checked));
-            addPerson.Instance.my_DataGridView1.DataSource = null;
-            addPerson.Instance.my_DataGridView1.DataSource = precenceService.GetList();
+            var result = MessageBox.Show("Are You Sure ? ", "",
+                                 MessageBoxButtons.YesNo,
+                                 MessageBoxIcon.Question);
+
+            // If the no button was pressed ...
+            if (result == DialogResult.Yes)
+            {
+                precenceService.EditList(Convert.ToInt32(comboBox1.SelectedItem), dateTimePicker3.Value, dateTimePicker4.Value, Convert.ToBoolean(checkBox2.Checked));
+                addPerson.Instance.my_DataGridView1.DataSource = null;
+                addPerson.Instance.my_DataGridView1.DataSource = precenceService.GetList();
+
+            }
+            
         }
 
         private void label6_Click(object sender, EventArgs e)

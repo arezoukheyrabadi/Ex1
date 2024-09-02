@@ -20,6 +20,9 @@ namespace Presence_Absence
             InitializeComponent();
             Instance = this;
             my_DataGridView1 = dataGridView1;
+            DataGridViewButtonCell b = new DataGridViewButtonCell();
+            b.Value = "name";
+            
 
         }
 
@@ -86,6 +89,7 @@ namespace Presence_Absence
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
+           
             var list = (List<Person>)dataGridView1.DataSource;
             var item = list[e.RowIndex];
 

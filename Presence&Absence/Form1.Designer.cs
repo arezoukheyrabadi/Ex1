@@ -191,8 +191,13 @@
             // 
             // Column1
             // 
-            Column1.HeaderText = "Column1";
+            Column1.FlatStyle = FlatStyle.System;
+            Column1.HeaderText = "Select";
             Column1.Name = "Column1";
+            Column1.Resizable = DataGridViewTriState.False;
+            Column1.Text = "Select";
+            Column1.UseColumnTextForButtonValue = true;
+            Column1.Width = 50;
             // 
             // addPerson
             // 
